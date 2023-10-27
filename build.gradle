@@ -26,6 +26,9 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-freemarker'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter'
+  implementation 'org.hibernate.orm:hibernate-community-dialects'
+  implementation 'org.hibernate.orm:hibernate-community-dialects:'
+
   implementation 'org.xerial:sqlite-jdbc:3.34.0'
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
